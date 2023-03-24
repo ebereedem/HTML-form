@@ -1,0 +1,30 @@
+*{
+text-align: center;
+padding:5px;
+background-color: rgb(2, 27, 8);
+}
+h2{
+color:rgb(238, 241, 240);
+}
+label{
+    color: white;
+}
+input{
+    border-color: yellow;
+    color:white;
+}
+select{
+    border-color:yellow;
+    color:white;
+}
+#submit{
+    background-color:rgb(12, 12, 75);
+}
+fieldset{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+legend{
+    text-align: left;
+    color:yellow;
+}

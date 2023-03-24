@@ -3,9 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Simple Form</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+  <h2>FILL IN YOUR DETAILS HERE</h2>
   <form id="myForm" onsubmit="return validateForm()" method="post">
+    <fieldset>
+      <legend>PERSONAL DATA</legend>
     <div>
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required>
@@ -33,8 +37,9 @@
       <input type="password" id="password" name="password" required>
     </div>
     <div>
-      <input type="submit" value="Submit">
+      <input id="submit" type="submit" value="Submit">
     </div>
+  </fieldset>
   </form>
 
   <script>
